@@ -1,0 +1,33 @@
+baseURL = 'https://wakri.se/'
+languageCode = 'en-us'
+title = 'Wakri AB'
+theme = 'freelancer'
+
+[params]
+  tagLine = "IT Consulting - Modern Workplace - Microsoft 365"
+  homePosts = 3
+  homeProjects = 3
+
+  aboutLeft = "Wakri AB is the corporate entity of Daniel Wahlgren, used for managing IT Consulting assignments"
+  aboutRight = "The focus of Wakri AB is Modern Workplace, specializing in Microsoft 365."
+
+[params.location]
+  lineOne = "Perronggatan 15"
+  lineTwo = "722 33 Västerås"
+
+[params.about]
+
+
+[params.sbform]
+      token = ""
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+[[related.indices]]
+  name = 'tags'
+  weight = 100
+[[related.indices]]
+  name = 'date'
+  weight = 10
