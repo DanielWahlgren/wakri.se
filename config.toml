@@ -2,6 +2,7 @@ baseURL = 'https://wakri.se/'
 languageCode = 'en-us'
 title = 'Wakri AB'
 theme = 'freelancer'
+publishDir = 'docs'
 
 [params]
   tagLine = "IT Consulting - Modern Workplace - Microsoft 365"
@@ -14,9 +15,6 @@ theme = 'freelancer'
 [params.location]
   lineOne = "Perronggatan 15"
   lineTwo = "722 33 Västerås"
-
-[params.about]
-
 
 [params.sbform]
       token = ""
